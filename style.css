@@ -134,3 +134,46 @@ i {
   align-items: center;
   justify-content: center;
 }
+.section {
+  height: 700px;
+}
+.section > h1 {
+  font-family: 'Lora', serif;
+  font-size: 4rem;
+  font-weight: 100;
+  padding-left: 25px;
+}
+.section-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+}
+.card {
+  border: 1px solid #f5f5f5;
+}
+.card-img {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+}
+.card-img > img {
+  height: 100%;
+  width: 100%;
+}
+.section-view-listing {
+  cursor: pointer;
+  font-family: 'Lora', serif;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.special {
+  color: #4a769d;
+}
+.special:hover {
+  border-bottom: 1px solid #4a769d;
+}
