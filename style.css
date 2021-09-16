@@ -50,3 +50,11 @@ nav {
   list-style: none;
   gap: 25px;
 }
+.hero-img {
+  width: 100%;
+  height: 500px;
+}
+.hero-img > img {
+  height: 100%;
+  width: 100%;
+}
