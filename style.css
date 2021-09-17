@@ -134,3 +134,147 @@ i {
   align-items: center;
   justify-content: center;
 }
+.section {
+  height: 700px;
+}
+.section > h1 {
+  font-family: 'Lora', serif;
+  font-size: 4rem;
+  font-weight: 100;
+  padding-left: 25px;
+}
+.section-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+}
+.card {
+  border: 1px solid #f5f5f5;
+  width: 300px;
+}
+.card-img {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+}
+.card-img > img {
+  height: 100%;
+  width: 100%;
+}
+.card-content {
+  width: 80%;
+}
+.section-view-listing {
+  cursor: pointer;
+  font-family: 'Lora', serif;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.special {
+  color: #4a769d;
+}
+.special:hover {
+  border-bottom: 1px solid #4a769d;
+}
+.address {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+.tour {
+  font-family: 'Lora', serif;
+  font-size: 0.9rem;
+  padding-left: 10px;
+}
+.price {
+  border-top: 1px solid #f5f5f5;
+  padding: 10px 15px;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+.hamburger {
+  display: none;
+}
+@media only screen and (min-width: 2048px) {
+  .hero-img {
+    height: 700px;
+  }
+  .section > h1 {
+    padding-left: 378px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: 400px;
+  }
+  .section-card {
+    flex-wrap: wrap;
+  }
+  .card-img {
+    height: 300px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 300px;
+  }
+  .card-img {
+    height: 200px;
+  }
+  .floating-content {
+    transform: unset;
+    width: 100%;
+  }
+  .hero-img {
+    height: 300px;
+  }
+  .links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .hamburger > i {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .logo {
+    height: 30px;
+  }
+  .hero-img {
+    height: 200px;
+  }
+  .heading {
+    font-size: 1.8rem;
+  }
+  .p-tags {
+    display: none;
+  }
+  .input {
+    padding-left: 0;
+    border: none;
+    width: 71%;
+  }
+  .p-text {
+    font-size: 0.9rem;
+  }
+  .section > h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #f5f5f5;
+  }
+  .section-view-listing {
+    gap: 30px;
+  }
+}
