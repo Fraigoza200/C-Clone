@@ -255,6 +255,70 @@ i {
   color: #4a769d;
   font-size: 15px;
 }
+/* phone container */
+.phone-container {
+  background-color: #000;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.phone-img {
+  height: 700px;
+  transform: translateY(-90px);
+}
+.phone-img > img {
+  height: 100%;
+}
+.phone-text {
+  height: 400px;
+  width: 500px;
+}
+.phone-heading{
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.phone-content{
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding-bottom: 25px;
+}
+.phone-email {
+  width: 90%;
+  border-radius: 10px;
+  height: 30px;
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  padding-left: 15px;
+}
+.phone-container.second {
+  padding-top: 50px;
+}
+.work-photo {
+  height: 500px;
+  transform: translateY(100px);
+}
+.work-photo > img {
+  height: 100%;
+}
+.learn-more {
+  height: 50px;
+  width: 50%;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+}
+.learn-more:hover {
+  background-color: #4a769d;
+}
 @media only screen and (min-width: 2048px) {
   .hero-img {
     height: 700px;
