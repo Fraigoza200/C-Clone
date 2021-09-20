@@ -370,6 +370,16 @@ i {
     height: 350px;
     width: 315px;
   }
+  .phone-img {
+    height: 500px;
+  }
+  .phone-text {
+    width: 400px;
+  }
+  .work-photo {
+    height: 350px;
+    transform: unset;
+  }
 }
 @media only screen and (max-width: 768px) {
   .card {
@@ -398,6 +408,12 @@ i {
     cursor: pointer;
     background-color: #fff;
     color: #000;
+  }
+  .phone-text.second {
+    width: 300px;
+  }
+  .work-photo {
+    height: 270px;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -430,5 +446,29 @@ i {
   }
   .card-2-heading > p {
     line-height: 110%;
+  }
+  .phone-container {
+    flex-direction: column;
+    gap: unset;
+  }
+  .phone-img {
+    height: 250px;
+    transform: unset;
+  }
+  .phone-text {
+    width: 300px;
+  }
+  .phone-heading {
+    font-size: 2rem;
+  }
+  .phone-content {
+    font-size: 1rem;
+  }
+  .phone-container.second {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .phone-text.second {
+    padding-top: 25px;
   }
 }
