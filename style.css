@@ -258,15 +258,15 @@ i {
 /* phone container */
 .phone-container {
   background-color: #000;
-  height: 500px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
 }
 .phone-img {
-  height: 600px;
-  transform: translateY(-100px);
+  height: 700px;
+  transform: translateY(-90px);
 }
 .phone-img > img {
   height: 100%;
@@ -295,6 +295,29 @@ i {
   font-family: 'Lora', serif;
   font-size: 1.2rem;
   padding-left: 15px;
+}
+.phone-container.second {
+  padding-top: 50px;
+}
+.work-photo {
+  height: 500px;
+  transform: translateY(100px);
+}
+.work-photo > img {
+  height: 100%;
+}
+.learn-more {
+  height: 50px;
+  width: 50%;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+}
+.learn-more:hover {
+  background-color: #4a769d;
 }
 @media only screen and (min-width: 2048px) {
   .hero-img {
