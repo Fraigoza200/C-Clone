@@ -302,6 +302,7 @@ i {
 .work-photo {
   height: 500px;
   transform: translateY(100px);
+  z-index: 1;
 }
 .work-photo > img {
   height: 100%;
@@ -318,6 +319,33 @@ i {
 }
 .learn-more:hover {
   background-color: #4a769d;
+}
+/* development */
+.development-container {
+  height: auto;
+  background-color: #f5f5f5;
+  transform: translateY(-15px);
+}
+.dev-text {
+  padding-top: 100px;
+  padding-left: 25px;
+}
+.dev-heading {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  line-height: 110%;
+}
+.dev-text > p {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+footer {
+  height: 300px;
+  background-color: #000;
+  bottom: 0;
+  margin-top: -15px;
 }
 @media only screen and (min-width: 2048px) {
   .hero-img {
@@ -344,7 +372,7 @@ i {
     justify-content: center;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1260px) {
   .card {
     width: 400px;
   }
@@ -370,8 +398,18 @@ i {
     height: 350px;
     width: 315px;
   }
+  .phone-img {
+    height: 500px;
+  }
+  .phone-text {
+    width: 400px;
+  }
+  .work-photo {
+    height: 350px;
+    transform: unset;
+  }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 950px) {
   .card {
     width: 300px;
   }
@@ -399,8 +437,14 @@ i {
     background-color: #fff;
     color: #000;
   }
+  .phone-text.second {
+    width: 300px;
+  }
+  .work-photo {
+    height: 270px;
+  }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 660px) {
   .logo {
     height: 30px;
   }
@@ -430,5 +474,34 @@ i {
   }
   .card-2-heading > p {
     line-height: 110%;
+  }
+  .phone-container {
+    flex-direction: column;
+    gap: unset;
+  }
+  .phone-img {
+    height: 250px;
+    transform: unset;
+  }
+  .phone-text {
+    width: 300px;
+  }
+  .phone-heading {
+    font-size: 2rem;
+  }
+  .phone-content {
+    font-size: 1rem;
+  }
+  .phone-container.second {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .phone-text.second {
+    padding-top: 25px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .work-photo {
+    height: 200px;
   }
 }
