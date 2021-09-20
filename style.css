@@ -344,7 +344,7 @@ i {
     justify-content: center;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1260px) {
   .card {
     width: 400px;
   }
@@ -381,7 +381,7 @@ i {
     transform: unset;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 950px) {
   .card {
     width: 300px;
   }
@@ -416,7 +416,7 @@ i {
     height: 270px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 660px) {
   .logo {
     height: 30px;
   }
@@ -470,5 +470,10 @@ i {
   }
   .phone-text.second {
     padding-top: 25px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .work-photo {
+    height: 200px;
   }
 }
